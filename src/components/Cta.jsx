@@ -1,5 +1,5 @@
 import React from "react";
-import cta from "../assets/images/Cta.png";
+import cta from "../assets/images/cta.png";
 export default function Cta() {
   return (
     <div className="cta w-[100%] flex flex-col md:flex-row content-center px-2 md:px-30 py-15 md:py-20">
