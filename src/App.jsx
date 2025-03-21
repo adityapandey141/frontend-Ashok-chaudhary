@@ -13,8 +13,7 @@ import Section10 from "./components/Section10";
 import Gallery from "./components/Gallery";
 import Cta from "./components/Cta";
 import Footer from "./components/Footer";
-import "animate.css";
-
+import "aos/dist/aos.css";
 function App() {
   return (
     <>
