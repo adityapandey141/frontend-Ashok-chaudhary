@@ -15,7 +15,7 @@ export default function Navbar() {
       <nav className=" bg-gray-800 text-white shadow-lg sticky top-0 z-5 md:px-15">
         <div className=" mx-auto px-5 py-2">
           <div className="flex justify-between items-center h-16">
-            <div className="flex-shrink-1 flex items-center">
+            <div className=" flex items-center">
               <a href="#" className="text-xl font-bold">
                 <img
                   src={logo}
@@ -26,25 +26,40 @@ export default function Navbar() {
               </a>
             </div>
 
-            <div className="hidden md:flex space-x-6">
-              <a href="/" className="px-3 py-2 hover:text-gray-300">
+            <div className="hidden md:flex md:space-x-3 lg:space-x-5">
+              <a
+                href="/"
+                className="md:px-2 lg:px-3 py-2 hover:text-gray-300 md:text-sm lg:text-base"
+              >
                 HOME
               </a>
-              <a href="#about" className="px-3 py-2 hover:text-gray-300">
+              <a
+                href="#about"
+                className="md:px-2 lg:px-3  py-2 hover:text-gray-300 md:text-sm lg:text-base"
+              >
                 ABOUT US
               </a>
-              <a href="#products" className="px-3 py-2 hover:text-gray-300">
+              <a
+                href="#products"
+                className="md:px-2 lg:px-3  py-2 hover:text-gray-300 md:text-sm lg:text-base"
+              >
                 PRODUCT
               </a>
-              <a href="#whyus" className="px-3 py-2 hover:text-gray-300">
+              <a
+                href="#whyus"
+                className="md:px-2 lg:px-3  py-2 hover:text-gray-300 md:text-sm lg:text-base"
+              >
                 WHY US
               </a>
-              <a href="#cta" className="px-3 py-2 hover:text-gray-300">
+              <a
+                href="#cta"
+                className="md:px-2 lg:px-3  py-2 hover:text-gray-300"
+              >
                 CONTACT
               </a>
             </div>
 
-            <div className="hidden md:block">
+            <div className="hidden lg:block">
               <a
                 href="tel:+917096428481"
                 className="bg-[#6383aa] hover:bg-blue-600 text-white font-medium px-4 py-2 rounded"
