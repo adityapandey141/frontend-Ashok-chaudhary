@@ -5,7 +5,10 @@ import useAnimateOnScroll from "./Animate";
 export default function Section3() {
   useAnimateOnScroll();
   return (
-    <div className="section3  w-100 grid grid-cols-dense md:grid-cols-2 col-end  gap-4 content-center  px-5 md:px-30 py-15 md:py-25">
+    <div
+      id="about"
+      className="section3  w-100 grid grid-cols-dense md:grid-cols-2 col-end  gap-4 content-center  px-5 md:px-30 py-15 md:py-25"
+    >
       <div className="d-flex flex-col content-center order-2 md:order-1">
         <h3 className="font-600 text-xl md:text-2xl my-3">About Us</h3>
         <h1 className="font-600 text-3xl md:text-5xl my-5 animate-on-scroll animate__fadeInUp">

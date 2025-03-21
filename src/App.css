@@ -4,10 +4,14 @@
 .slide1 {
   background-image: url("./assets/images/sliderBg.webp");
   background-size: cover;
+  display: flex !important;
+  justify-content: center;
 }
 .slide2 {
   background-image: url("./assets/images/sliderBg2.webp");
   background-size: cover;
+  display: flex !important;
+  justify-content: center;
 }
 .overlay {
   position: absolute;

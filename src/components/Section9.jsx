@@ -1,12 +1,11 @@
 import React from "react";
-import Agricultural from "../assets/images/Agricultural.png";
-import Domestic from "../assets/images/domestic.png";
-import Industrial from "../assets/images/Industrial.png";
-import Commercial from "../assets/images/Commercial.png";
+import image1 from "../assets/images/section9.1.png";
+import image2 from "../assets/images/section9.2.png";
+import image3 from "../assets/images/section9.3.png";
 
 export default function Section9() {
   return (
-    <div className="section9 mt-[-50px] ">
+    <div id="whyus" className="section9 mt-[-50px] ">
       <div className="grid grid-cols-12 md:grid-cols-12 gap-0 ">
         <div className="col-span-12 md:col-span-5 order-2 md:order-1 md:col-start-2 relative bg-amber-800 h-60 md:h-70 overflow-hidden">
           <div className="absolute inset-0 flex flex-col justify-start p-5 md:p-8">
@@ -29,7 +28,7 @@ export default function Section9() {
 
         <div className="col-span-12 md:col-span-5 order-1 md:order-2  bg-white overflow-hidden h-55 md:h-70">
           <img
-            src="https://www.ashokchaudhary.co.in/wp-content/uploads/2024/04/MIsiion.png"
+            src={image1}
             alt="Water pump product"
             className="w-full object-contain"
           />
@@ -39,7 +38,7 @@ export default function Section9() {
       <div className="grid grid-cols-12 gap-0 ">
         <div className="col-span-12 md:col-span-5 md:col-start-2   bg-white overflow-hidden h-50 md:h-70">
           <img
-            src="https://www.ashokchaudhary.co.in/wp-content/uploads/2024/04/MIsiion.png"
+            src={image2}
             alt="Water pump product"
             className="w-full object-contain"
           />
@@ -82,7 +81,7 @@ export default function Section9() {
 
         <div className="col-span-12 md:col-span-5 order-1 md:order-2  bg-white overflow-hidden h-50 md:h-70">
           <img
-            src="https://www.ashokchaudhary.co.in/wp-content/uploads/2024/04/MIsiion.png"
+            src={image3}
             alt="Water pump product"
             className="w-full object-contain"
           />

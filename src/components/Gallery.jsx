@@ -25,75 +25,82 @@ export default function Gallery() {
   };
 
   return (
-    <div className="w-[100%] flex flex-col md:flex-row content-center px-5 md:px-30 py-15 md:py-10">
+    <div className="w-[100%] flex flex-col  content-center px-5 md:px-30 py-1 md:py-0 md:pb-10">
+      <div className="">
+        <div className=" text-center my-3 md:my-10">
+          <h1 className="font-600 text-3xl md:text-5xl text-[#6383aa] ">
+            Products Gallery
+          </h1>
+        </div>
+      </div>
       <LightGallery
         onInit={onInit}
         speed={500}
         plugins={[lgZoom]}
-        elementClassNames="grid grid-cols-3 gap-4"
+        elementClassNames="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4"
       >
-        <a href={baseUrl + images[0]}>
+        <a href={images[0]}>
           <img
             alt="Ashok Chaudhary Images"
-            src={baseUrl + images[0]}
-            className="w-100 h-50"
+            src={images[0]}
+            className="w-50 md:w-100 h-30 md:h-50"
           />
         </a>
 
-        <a href={baseUrl + images[1]}>
+        <a href={images[1]}>
           <img
             alt="Ashok Chaudhary Images"
-            src={baseUrl + images[1]}
-            className="w-100 h-50"
+            src={images[1]}
+            className="w-50 md:w-100 h-30 md:h-50"
           />
         </a>
-        <a href={baseUrl + images[2]}>
+        <a href={images[2]}>
           <img
             alt="Ashok Chaudhary Images"
-            src={baseUrl + images[2]}
-            className="w-100 h-50"
+            src={images[2]}
+            className="w-50 md:w-100 h-30 md:h-50"
           />
         </a>
-        <a href={baseUrl + images[3]}>
+        <a href={images[3]}>
           <img
             alt="Ashok Chaudhary Images"
-            src={baseUrl + images[3]}
-            className="w-100 h-50"
+            src={images[3]}
+            className="w-50 md:w-100 h-30 md:h-50"
           />
         </a>
-        <a href={baseUrl + images[4]}>
+        <a href={images[4]}>
           <img
             alt="Ashok Chaudhary Images"
-            src={baseUrl + images[4]}
-            className="w-100 h-50"
+            src={images[4]}
+            className="w-50 md:w-100 h-30 md:h-50"
           />
         </a>
-        <a href={baseUrl + images[5]}>
+        <a href={images[5]}>
           <img
             alt="Ashok Chaudhary Images"
-            src={baseUrl + images[5]}
-            className="w-100 h-50"
+            src={images[5]}
+            className="w-100 h-30 md:h-50"
           />
         </a>
-        <a href={baseUrl + images[6]}>
+        <a href={images[6]}>
           <img
             alt="Ashok Chaudhary Images"
-            src={baseUrl + images[6]}
-            className="w-100 h-50"
+            src={images[6]}
+            className="w-50 md:w-100 h-30 md:h-50"
           />
         </a>
-        <a href={baseUrl + images[7]}>
+        <a href={images[7]}>
           <img
             alt="Ashok Chaudhary Images"
-            src={baseUrl + images[7]}
-            className="w-100 h-50"
+            src={images[7]}
+            className="w-50 md:w-100 h-30 md:h-50"
           />
         </a>
-        <a href={baseUrl + images[8]}>
+        <a href={images[8]}>
           <img
             alt="Ashok Chaudhary Images"
-            src={baseUrl + images[8]}
-            className="w-100 h-50"
+            src={images[8]}
+            className="w-50 md:w-100 h-30 md:h-50"
           />
         </a>
       </LightGallery>

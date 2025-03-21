@@ -2,7 +2,10 @@ import React from "react";
 import section3_about from "../assets/images/section4.png";
 export default function Section4() {
   return (
-    <div className="section4  w-100 flex flex-col md:flex-row content-center px-5 md:px-30 py-15 md:py-25">
+    <div
+      id="products"
+      className="section4  w-100 flex flex-col md:flex-row content-center px-5 md:px-30 py-15 md:py-25"
+    >
       <div className="basis-1 md:basis-1/2">
         <img src={section3_about} className="w-60 md:w-100 " />
       </div>

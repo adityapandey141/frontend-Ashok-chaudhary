@@ -2,7 +2,10 @@ import React from "react";
 import cta from "../assets/images/cta.png";
 export default function Cta() {
   return (
-    <div className="cta w-[100%] flex flex-col md:flex-row content-center px-2 md:px-30 py-15 md:py-20">
+    <div
+      id="cta"
+      className="cta w-[100%] flex flex-col md:flex-row content-center px-2 md:px-30 py-15 md:py-20"
+    >
       <div className="max-w-5xl mx-auto bg-gray-800 rounded-lg overflow-hidden">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 bg-white p-5 md:p-8 relative">

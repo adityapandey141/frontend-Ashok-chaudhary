@@ -12,7 +12,7 @@ export default function Navbar() {
   };
   return (
     <>
-      <nav className=" bg-gray-800 text-white shadow-lg sticky top-0 z-5">
+      <nav className=" bg-gray-800 text-white shadow-lg sticky top-0 z-5 md:px-15">
         <div className=" mx-auto px-5 py-2">
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-1 flex items-center">
@@ -27,19 +27,19 @@ export default function Navbar() {
             </div>
 
             <div className="hidden md:flex space-x-6">
-              <a href="#" className="px-3 py-2 hover:text-gray-300">
+              <a href="/" className="px-3 py-2 hover:text-gray-300">
                 HOME
               </a>
-              <a href="#" className="px-3 py-2 hover:text-gray-300">
+              <a href="#about" className="px-3 py-2 hover:text-gray-300">
                 ABOUT US
               </a>
-              <a href="#" className="px-3 py-2 hover:text-gray-300">
+              <a href="#products" className="px-3 py-2 hover:text-gray-300">
                 PRODUCT
               </a>
-              <a href="#" className="px-3 py-2 hover:text-gray-300">
+              <a href="#whyus" className="px-3 py-2 hover:text-gray-300">
                 WHY US
               </a>
-              <a href="#" className="px-3 py-2 hover:text-gray-300">
+              <a href="#cta" className="px-3 py-2 hover:text-gray-300">
                 CONTACT
               </a>
             </div>
@@ -47,7 +47,7 @@ export default function Navbar() {
             <div className="hidden md:block">
               <a
                 href="tel:+917096428481"
-                className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-4 py-2 rounded"
+                className="bg-[#6383aa] hover:bg-blue-600 text-white font-medium px-4 py-2 rounded"
               >
                 +91 7096428481
               </a>
@@ -110,19 +110,19 @@ export default function Navbar() {
           </div>
 
           <div className="flex flex-col space-y-4">
-            <a href="#" className="px-4 py-2 hover:bg-gray-700 rounded">
+            <a href="/" className="px-4 py-2 hover:bg-gray-700 rounded">
               HOME
             </a>
-            <a href="#" className="px-4 py-2 hover:bg-gray-700 rounded">
+            <a href="#about" className="px-4 py-2 hover:bg-gray-700 rounded">
               ABOUT US
             </a>
-            <a href="#" className="px-4 py-2 hover:bg-gray-700 rounded">
+            <a href="#products" className="px-4 py-2 hover:bg-gray-700 rounded">
               PRODUCT
             </a>
-            <a href="#" className="px-4 py-2 hover:bg-gray-700 rounded">
+            <a href="#whyus" className="px-4 py-2 hover:bg-gray-700 rounded">
               WHY US
             </a>
-            <a href="#" className="px-4 py-2 hover:bg-gray-700 rounded">
+            <a href="#cta" className="px-4 py-2 hover:bg-gray-700 rounded">
               CONTACT
             </a>
           </div>
@@ -130,7 +130,7 @@ export default function Navbar() {
           <div className="mt-8">
             <a
               href="tel:+917096428481"
-              className="block bg-blue-500 hover:bg-blue-600 text-white text-center font-medium px-4 py-2 rounded"
+              className="block bg-[#6383aa] hover:bg-blue-600 text-white text-center font-medium px-4 py-2 rounded"
             >
               +91 7096428481
             </a>

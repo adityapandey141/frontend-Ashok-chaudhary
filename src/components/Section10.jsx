@@ -2,7 +2,7 @@ import React from "react";
 import section10 from "../assets/images/section10.jpg";
 export default function Section10() {
   return (
-    <div className="section4  w-100 flex flex-col md:flex-row content-center px-5 md:px-30 py-15 md:py-25">
+    <div className="section4  w-100 flex flex-col md:flex-row content-center px-5 md:px-30 py-10 md:py-20">
       <div className="basis-1 md:basis-[40vw] ">
         <img src={section10} className="w-60 md:w-100 " />
       </div>

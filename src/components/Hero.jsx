@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <div className="slider-container overflow-hidden ">
       <Slider {...settings}>
-        <div className="slide1 h-[70vh] md:h-[100vh] w-100  d-flex flex-col content-center px-5 md:px-30">
+        <div className="slide1 h-[70vh] md:h-[100vh] w-100  flex flex-col content-center px-5 md:px-30">
           <div className="overlay"></div>
           <div className="slider-content">
             <h3 className="font-600 text-xl my-3 animate__animated animate__fadeInUp">
@@ -34,13 +34,13 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="slide2 h-[70vh] md:h-[100vh] w-100  d-flex flex-col content-center px-5 md:px-30">
+        <div className="slide2 h-[70vh] md:h-[100vh] w-100  flex flex-col content-center px-5 md:px-30">
           <div className="overlay"></div>
           <div className="slider-content">
             <h3 className="font-600 text-xl my-3 animate__animated animate__fadeInUp">
               Redefining Water Accessibility
             </h3>
-            <h1 className="font-bold text-3xl md:text-7xl my-5 animate__animated animate__fadeInUp">
+            <h1 className="font-700 md:font-bold text-5xl md:text-7xl my-5 animate__animated animate__fadeInUp">
               Exceptional, Advanced, <br></br>
               Premium
             </h1>
